@@ -39,6 +39,8 @@ ggplot() + geom_bar(data = df, aes(x= fuente, y= registros), #geom_ bar() <- Pro
   geom_text(aes(y=registros, x=fuente, label= registros, vjust= 0.1 , hjust= -0.20)) + #geom_text <- Propiedad que permite añadir textos o etiquetas
   #Con vjust = 0.1 ajustamos mejor la posición de cada etiqueta con respecto a las barras         
   theme_light() #theme_light <- Estilo del grafico, tambien podemos elegir: theme_bw(), theme_gray(), theme_dark(), theme_classic(), theme_minimal() y theme_void()
+  
+  El resultado es el siguiente:
 
 ![Rplot](https://user-images.githubusercontent.com/73009717/157800956-77b5c223-e1e7-438f-9cfc-8d90ae81be05.png)
 
