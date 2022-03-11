@@ -1,5 +1,5 @@
 # graficos-en-R.
-Como realizar gráficos usando R
+Cómo realizar gráficos usando R
 
 
 
